@@ -3,8 +3,7 @@ package decorator_pattern;
 public class Mozzarella extends ToppingDecorator{
 
     public Mozzarella(Pizza tempPizza) {
-        super(tempPizza);
-        System.out.println("Added mozarella");
+        this.tempPizza=tempPizza;
     }
 
     public String getDescription()

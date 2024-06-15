@@ -1,6 +1,6 @@
 package decorator_pattern;
 
-public class PizzaMaker {
+public class Main {
 
     public static void main(String[] args) {
         Pizza pizza = new TomatoSauce(new Mozzarella(new PlainPizza()));

@@ -1,6 +1,6 @@
 package adapter_pattern;
 
-public class TestEnemyAttackers {
+public class Main {
 
     public static void main(String[] args) {
         EnemyTank tank = new EnemyTank();

@@ -2,6 +2,8 @@ package singleton_pattern;
 
 import java.util.*;
 
+// The Singleton Pattern ensures a class has only one instance, and provides a global point of access to it.
+
 public class ScrabbleTest {
     
     public static void main(String[] args) {
