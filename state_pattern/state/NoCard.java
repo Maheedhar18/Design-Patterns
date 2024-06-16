@@ -1,4 +1,6 @@
-package state_pattern;
+package state_pattern.state;
+
+import state_pattern.ATMMachine;
 
 public class NoCard implements ATMState{
     ATMMachine atmMachine;

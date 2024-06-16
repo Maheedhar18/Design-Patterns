@@ -1,4 +1,4 @@
-package state_pattern;
+package state_pattern.state;
 
 public interface ATMState {
 

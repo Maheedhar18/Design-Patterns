@@ -1,16 +1,18 @@
 package state_pattern;
 
+import state_pattern.state.*;
+
 public class ATMMachine {
     
-    ATMState hasCard;
-    ATMState noCard;
-    ATMState hasPin;
-    ATMState atmOutOfMoney;
+    public ATMState hasCard;
+    public ATMState noCard;
+    public ATMState hasPin;
+    public ATMState atmOutOfMoney;
 
-    ATMState atmState;
+    public ATMState atmState;
 
-    int cashInMachine = 2000;
-    boolean correctPinEntered = false;
+    public int cashInMachine = 2000;
+    public boolean correctPinEntered = false;
 
     public ATMMachine() 
     {
@@ -27,7 +29,7 @@ public class ATMMachine {
         }
     }
 
-    void setATMState(ATMState newATMState)
+    public void setATMState(ATMState newATMState)
     {
         atmState = newATMState;
     }

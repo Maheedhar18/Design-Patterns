@@ -1,4 +1,6 @@
-package state_pattern;
+package state_pattern.state;
+
+import state_pattern.ATMMachine;
 
 public class HasCard implements ATMState{
 

@@ -1,6 +1,6 @@
 package state_pattern;
 
-public class TestMachine {
+public class Main {
 
     public static void main(String[] args) {
 
